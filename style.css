@@ -1,0 +1,55 @@
+body {
+	background: #3e6138;
+	font-family: catalpa, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	color: #e1f3c9;
+}
+h1 {
+	font-weight: 200;
+	font-size: 8vw;
+	margin: 0 0 20px 20px;
+
+}
+.filters {
+	margin: 20px;
+}
+button {
+	font-family: catalpa, sans-serif;
+	font-size: 28px;
+	font-weight: 200;
+	background: none;
+	border-style: initial;
+	border: 1px solid #e1f3c9;
+	color: #e1f3c9;
+
+}
+button:hover {
+	background-color: #e1f3c9;
+	color: black;
+	transition: 0.4s all ease;
+}
+.genreTag {
+  padding:4px 8px;
+  border: 1px solid #e1f3c9;
+  margin: 0 8px 20px 0;
+
+}
+
+.songContainer{
+  border: 1px solid #e1f3c9;
+  padding:16px 24px;
+  margin: 20px;
+
+}
+.image {
+	display: flex;
+	margin: auto;
+	float: right;
+	width: 150px;
+	height: 150px;
+}
+.title {
+	margin: 0;
+	font-size: 46px;
+}
